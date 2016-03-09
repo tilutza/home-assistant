@@ -9,7 +9,8 @@ import logging
 from homeassistant.util import slugify
 from homeassistant.const import EVENT_HOMEASSISTANT_STOP
 
-REQUIREMENTS = ['pyRFXtrx==0.6']
+REQUIREMENTS = ['https://github.com/Danielhiversen/pyRFXtrx/' +
+                'archive/dev.zip#pyRFXtrx==0.5']
 
 DOMAIN = "rfxtrx"
 
